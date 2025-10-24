@@ -1,0 +1,111 @@
+{
+  "player": {
+    "name": "Hero",
+    "health": 100,
+    "attack": 10,
+    "defense": 5
+  },
+  "inventory": {
+    "items": [
+      {
+        "name": "Health Potion",
+        "quantity": 1
+      },
+      {
+        "name": "Sword",
+        "quantity": 1
+      },
+      {
+        "name": "Gold Coin",
+        "quantity": 100
+      }
+    ]
+  },
+  "quests": [
+    {
+      "name": "Find the Lost Artifact",
+      "description": "Search the ancient ruins for a mysterious artifact",
+      "status": "InProgress"
+    },
+    {
+      "name": "Defeat the Goblin Chief",
+      "description": "Clear the goblin camp and defeat their leader",
+      "status": "NotStarted"
+    },
+    {
+      "name": "Gather Herbs",
+      "description": "Collect 10 medicinal herbs from the forest",
+      "status": "NotStarted"
+    },
+    {
+      "name": "Train with the Master",
+      "description": "Complete combat training at the barracks",
+      "status": "NotStarted"
+    }
+  ],
+  "current_town": {
+    "name": "Starting Village",
+    "gold": 75,
+    "wood": 80,
+    "food": 100,
+    "buildings": [
+      {
+        "building_type": "Farm",
+        "name": "Old Mill Farm"
+      },
+      {
+        "building_type": "Market",
+        "name": "Central Market"
+      },
+      {
+        "building_type": "Farm",
+        "name": "New Farm"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Power Strike",
+      "skill_type": "Attack",
+      "power": 15,
+      "required_level": 1
+    },
+    {
+      "name": "Shield Block",
+      "skill_type": "Defense",
+      "power": 10,
+      "required_level": 1
+    }
+  ],
+  "combat_log": {
+    "entries": [
+      "Completed quest: Find the Lost Artifact",
+      "Started quest: Find the Lost Artifact",
+      "Built a Farm for 50 gold and 20 wood",
+      "Hero uses Power Strike [Attack]",
+      "Hero uses Shield Block [Defense]",
+      "Hero uses Power Strike [Attack]",
+      "Hero uses Power Strike [Attack]",
+      "Hero uses Power Strike [Attack]",
+      "Hero uses Power Strike [Attack]",
+      "Defeated Goblin Warrior with skill"
+    ],
+    "max_entries": 10
+  },
+  "dialogue_engine": {
+    "steps": [
+      {
+        "text": "Welcome to the RPG World! Are you ready for adventure?",
+        "options": [
+          "Yes!",
+          "Tell me more"
+        ],
+        "next": [
+          null,
+          null
+        ]
+      }
+    ],
+    "current": 0
+  }
+}
