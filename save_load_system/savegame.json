@@ -1,0 +1,10 @@
+{
+  "player_name": "Hero",
+  "level": 5,
+  "hp": 100,
+  "items": [
+    "Sword",
+    "Shield"
+  ],
+  "gold": 250
+}
