@@ -35,7 +35,7 @@ impl Town {
         }
     }
 
-    // BUild a new building, spending resources
+    // Build a new building, spending resources
     fn build(&mut self, building_type: BuildingType, building_name: &str) {
         // Resource costs for each building type
         let (gold_cost, wood_cost, food_cost) = match building_type {
